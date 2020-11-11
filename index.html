@@ -1,36 +1,46 @@
 <!doctype html>
-<!Learning HTML and CSS>
+<!-- Learning HTML and CSS-->
 
 <html lang="en">
 
-<!The head contains a lot of information, most of which you are not going to see
-displayed by your browser, but that are fundamental to your webpage>
+<!--
+The head contains a lot of information, most of which you are not going to see
+displayed by your browser, but that are fundamental to your webpage-->
 <head>
   <meta charset="utf-8">
-  <!Next is the title of the tab>
+  <!--
+  Next is the title of the tab-->
   <title>Giuseppe Silvestro's Profile</title>
-  <!The metatag provide information used by browser and search engine>
+  <!--
+  The metatag provide information used by browser and search engine-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!Next is the link to the CSS document for this project>
+  <!--
+  Next is the link to the CSS document for this project-->
   <link rel="stylesheet" href="styles.css">
-  <!Next is the link for the font we are going to use>
+  <!--
+  Next is the link for the font we are going to use-->
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900"
   rel="stylesheet">
-  <!In this area we are also going to refer to our JavaScript file if we are going to use one>
+  <!--
+  In this area we are also going to refer to our JavaScript file if we are going to use one-->
 </head>
 
-<!Many web developer devide the body of the webpage in tree sections:
-header; main; footer>
+<!--
+Many web developer devide the body of the webpage in tree sections:
+header; main; footer-->
   <body>
 
     <div class="main-nav">
-      <!A list can have two different tags: ul(unordered list) or ol (ordered list)>
+      <!--
+      A list can have two different tags: ul(unordered list) or ol (ordered list)-->
         <ul class="nav">
-          <!li tag stads for list item>
+          <!--
+          li tag stads for list item-->
           <li class="name">Giuseppe Silvestro</li>
-          <!The ancor (a) tag is used to create a clickable ling. With href attribute
+          <!--
+          The ancor (a) tag is used to create a clickable ling. With href attribute
           (hypertex reference) we tell the browser where to go when the user click
-          the link>
+          the link-->
           <li><a href="#">Home</a></li>
           <li><a href="CV_Website/resume.html">Experience</a></li>
           <li><a href="#">Photos</a></li>
@@ -39,9 +49,10 @@ header; main; footer>
     </div>
 
     <header>
-      <!The src tag is used to specify the source of your image. In this case I am
+      <!--
+      The src tag is used to specify the source of your image. In this case I am
       using a website to get my image from. The alt tag is used to give a description
-      of the image>
+      of the image-->
       <img src="https://placeimg.com/400/400/nature" alt="Random nature image" class="profile-image">
       <h1 class="tag name">Hello, I’m Giuseppe.</h1>
       <p class="tag location">I live in Edinburgh, Scotland.</p>
@@ -50,7 +61,7 @@ header; main; footer>
     <main class="flex">
       <div class="card">
         <h2>Background</h2>
-        <!The paragraph (p) tag is used to structure our text>
+        <!--The paragraph (p) tag is used to structure our text-->
         <p>I am an experienced Assistant Manager and I have worked in Customer Facing Business for more than ten years.<br>
           I have recently decided to start a new carreer as Software Engineer.<br>
           I am excited about building my personal website!</p>
@@ -73,7 +84,8 @@ header; main; footer>
     </main>
     <footer>
       <ul>
-        <!The target tag, in this case, open up a new tab when click on the link>
+        <!--
+        The target tag, in this case, open up a new tab when click on the link-->
         <li><a href="https://www.linkedin.com/in/giuseppe-silvestro-626bb61a1/" target="_blank" class="social linkedin">LinkedIn</a></li>
         <li><a href="https://github.com/giuseppeSilvestro" target="_blank" class="social github">Github</a></li>
       </ul>
