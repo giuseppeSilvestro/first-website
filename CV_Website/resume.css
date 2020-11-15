@@ -21,14 +21,21 @@ dd {
   text-indent: 10%;
 }
 
+li{
+  position: relative;
+  left: 100px;
+}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 800;
+  width: 60%;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
+  position: relative;
+  top: 60px;
 }
 .card:hover {
   border-color: #ff99ff;
@@ -40,4 +47,6 @@ dd {
   min-height: 30px;
   padding: 10px;
   text-align: left;
+  position: absolute;
+  top: 0;
 }
